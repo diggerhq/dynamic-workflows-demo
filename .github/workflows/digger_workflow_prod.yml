@@ -26,7 +26,7 @@ jobs:
         with:
           digger-organisation: digger-playground
           digger-token: ${{ secrets.DIGGER_TOKEN }}
-          digger-hostname: cloud.digger.dev          
+          digger-hostname: https://cloud.digger.dev          
           digger-filename: digger_prod.yml
           setup-aws: true
           disable-locking: true
