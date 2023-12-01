@@ -1,0 +1,2 @@
+backend/*.tfstate
+backend/.terraform
