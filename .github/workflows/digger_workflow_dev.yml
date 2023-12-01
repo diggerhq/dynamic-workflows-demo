@@ -2,7 +2,7 @@ name: Digger Dev
 
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
     types: [ opened, synchronize ]
   issue_comment:
     types: [created]
