@@ -1,4 +1,4 @@
-name: Digger Dev
+name: Digger Prod
 
 on:
   pull_request:
@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: digger run
-        uses: diggerhq/digger@fix-no-changes-
+        uses: diggerhq/digger@v0.3.1
         with:
           digger-organisation: digger-playground
           digger-token: ${{ secrets.DIGGER_TOKEN }}
